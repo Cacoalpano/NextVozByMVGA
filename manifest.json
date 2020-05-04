@@ -1,0 +1,15 @@
+{
+    "name": "Next Voz",
+    "author": "Cacoalpano",
+    "version": "1.0",
+    "description": "Create a extension for next voz",
+    "permissions": ["storage", "notifications", "*://next.voz.vn/*", "*://api.imgur.com/*"],
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "images/icon48.png"
+    },
+    "manifest_version": 2
+}
